@@ -18,17 +18,17 @@
                       </div>
                     </div>
                     </form>
-                    
+
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body table-responsive no-padding">
                   <table class="table table-hover">
                     <tbody><tr>
                       <th></th>
-                      <th>EmergencyCall_id</th>
-                      <th>NameNumberCall</th>
-                      <th>NumberCall</th>
-                      <th>UserID</th>  
+                      <th>ลำดับ</th>
+                      <th>ชื่อเบอร์โทรศัพท์</th>
+                      <th>เบอร์โทรศัพท์</th>
+                      <th>ชื่อผู้ใช้</th>  
                     </tr>
                     
                     <?php

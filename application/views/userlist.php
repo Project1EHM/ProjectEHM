@@ -25,18 +25,18 @@
       <table class="table table-hover">
         <tbody><tr>
           <th></th>
-          <th>ID</th>
-          <th>UserName</th>
-          <th>Frist Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Disease</th>
-          <th>drug_allergy</th>
-          <th>Treatment</th>
-          <th>Personaldoctor</th>
-          <th>Hospital</th>
-          <th>Image</th>
-          <th>Action</th>
+          <th>ลำดับ</th>
+          <th>ชื่อผู้ใช้</th>
+          <th>ชื่อ</th>
+          <th>นามสกุล</th>
+          <th>อีเมลล์</th>
+          <th>โรค</th>
+          <th>ประวัติการแพ้ยา</th>
+          <th>สิทธิการรักษา</th>
+          <th>แพทย์ประจำตัว</th>
+          <th>โรงพยาบาลประจำ</th>
+          <th>รูป</th>
+          <th></th>
         </tr>
         <?php
         $i = 0;

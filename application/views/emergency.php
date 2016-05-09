@@ -5,19 +5,22 @@
 
         <section class="content-header">
          <div class="box">
-         <div id = "loader" style="text-align: center"><img src="<?php echo base_url(); ?>/assets/css/page-loader.gif" width="100px" height="100px"></div>
+         <div id = "loader" style="text-align: center"><img src="<?php echo base_url(); ?>/assets/css/page-loader.gif" width="100px" 
+         height="100px"></div>
 
                 <div class="box-header">
                   <h3 class="box-title">Emergency</h3>
                   <div class="box-tools">
+
                   <form method="post">
                     <div class="input-group" style="width: 180px;">
                       <input type="text" name="search" class="form-control input-sm pull-right" placeholder="Search">
                       <div class="input-group-btn">
-                        <button class="btn btn-sm btn-default"  type="submit" ><i class="fa fa-search"></i></button>
+                        <button class="btn btn-sm btn-default"  type="submit"><i class="fa fa-search"></i></button>
                       </div>
                     </div>
                     </form>
+
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body table-responsive no-padding">
@@ -29,8 +32,7 @@
                       <th>วันที่</th>
                       <th>จาก</th>
                       <th>ถึง</th>
-                      
-                      <th>ตัวเลือก</th>
+                      <th></th>
                      </tr>
                <?php
         $i = 0;

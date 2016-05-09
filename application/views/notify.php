@@ -25,13 +25,12 @@
       <table class="table table-hover">
         <tbody><tr>
           <th></th>
-          <th>ID</th>
-          <th>DateTime</th>
-          <th>Comment</th>
+          <th>ลำดับ</th>
+          <th>วันที่และเวลา</th>
+          <th>ข้อความ</th>
           <th>จาก</th>
            <th>ถึง</th>
-          
-           <th>Action</th>
+          <th></th>
         </tr>
 
        <?php
