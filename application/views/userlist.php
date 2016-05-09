@@ -55,7 +55,7 @@
           echo "<td>" . $data->personaldoctor. "</td>";
           echo "<td>" . $data->hospital. "</td>";
           echo "<td><img src='" . base_url() . '../HelperSenior/' . $data->images . "' width='100px' height='100px'></td>";
-          echo '<td><div class="btn-group"><button class="btn btn-info" data-toggle="tooltip" title="Edit User" onclick="getData(\''.$data->user_account_id.'\')"><i class="fa fa-pencil-square-o"></i></button><a class="btn btn-danger" data-toggle="tooltip" title="Remove Application" href="'. site_url('/useraccount/deleteAccount/'.$data->user_account_id).'"><i class="fa fa-trash-o"></i></a></div></td>';
+          echo '<td><div class="btn-group"><a class="btn btn-danger" data-toggle="tooltip" title="Remove Application" href="'. site_url('/useraccount/deleteAccount/'.$data->user_account_id).'"><i class="fa fa-trash-o"></i></a></div></td>';
           echo "</tr>";
         }
         ?>
