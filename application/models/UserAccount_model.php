@@ -108,6 +108,7 @@ public function emergencycall($searchtrem='')
       $this->db->delete('emergency', array('user_account_user_account_id' => $id));
  	  $this->db->delete('friendlist', array('user_account_user_account_id ' => $id));
  	  $this->db->delete('emergencycall', array('user_account_user_account_id' => $id));
+ 	  $this->db->delete('calendar', array('user_account_user_account_id' => $id));
 
  		$this->db->delete('user_account', array('user_account_id' => $id));
       
