@@ -102,8 +102,13 @@ public function emergencycall($searchtrem='')
  }
 
  public function deleteAccount($id){
+ 
 
- 		
+      $this->db->delete('notify', array('user_account_user_account_id' => $id));
+      $this->db->delete('emergency', array('user_account_user_account_id' => $id));
+ 	  $this->db->delete('friendlist', array('user_account_user_account_id ' => $id));
+ 	  $this->db->delete('emergencycall', array('user_account_user_account_id' => $id));
+
  		$this->db->delete('user_account', array('user_account_id' => $id));
       
 
@@ -111,7 +116,7 @@ public function emergencycall($searchtrem='')
 
  public function deleteEmergency($id){
 
- 	     $this->db->delete('emergency', array('user_account_user_account_id' => $id));
+ 	    
 
  		$this->db->delete('emergency', array('emergency_id' => $id));
 
@@ -119,7 +124,7 @@ public function emergencycall($searchtrem='')
  }
 
  public function deleteNotify($id){
- 	   $this->db->delete('notify', array('user_account_user_account_id' => $id));
+ 	  
 
  		$this->db->delete('notify', array('notify_id' => $id));
 
@@ -127,14 +132,14 @@ public function emergencycall($searchtrem='')
  }
 
 public function deleteFriendlist($id){
-	$this->db->delete('friendlist', array('user_account_user_account_id ' => $id));
+	
 
  		$this->db->delete('friendlist', array('friendlist_id' => $id));
 
 
  }
  public function deleteCallmer($id){
- 	$this->db->delete('	emergencycall', array('user_account_user_account_id' => $id));
+ 	
  	
  		$this->db->delete('	emergencycall', array('emergencycall_id' => $id));
 }
