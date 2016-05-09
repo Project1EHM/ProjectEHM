@@ -31,7 +31,7 @@
                       <th>ลำดับ</th>
                       <th>วันที่</th>
                       <th>จาก</th>
-                      <th>ถึง</th>
+                      
                       <th></th>
                      </tr>
                <?php
@@ -43,8 +43,8 @@
           echo "<td>" . $i . "</td>";
          
           echo "<td>" . $data->datetime . "</td>";
-           echo "<td>" . $data->username_s . "</td>";
-          echo "<td>" . $data->username_d . "</td>";
+           echo "<td>" . $data->username . "</td>";
+      
           
           
           echo '<td><div class="btn-group"><a class="btn btn-danger" data-toggle="tooltip" title="Remove Application" href="'. site_url('/useraccount/deleteEmergency/'.$data->emergency_id).'"><i class="fa fa-trash-o"></i></a></div></td>';
