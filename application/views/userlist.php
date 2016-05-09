@@ -24,7 +24,7 @@
     <div class="box-body table-responsive no-padding">
       <table class="table table-hover">
         <tbody><tr>
-          <th></th>
+       
           <th>ลำดับ</th>
           <th>ชื่อผู้ใช้</th>
           <th>ชื่อ</th>
@@ -43,7 +43,7 @@
         foreach ($data as $data) {
           $i++;
           echo "<tr>";
-          echo "<td><input type=\"checkbox\"></td>";
+          
           echo "<td>" . $i . "</td>";
           echo "<td>" . $data->username . "</td>";
           echo "<td>" . $data->firstname . "</td>";

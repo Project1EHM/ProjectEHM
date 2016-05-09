@@ -24,7 +24,7 @@
     <div class="box-body table-responsive no-padding">
       <table class="table table-hover">
         <tbody><tr>
-          <th></th>
+         
           <th>ลำดับ</th>
           <th>วันที่และเวลา</th>
           <th>ข้อความ</th>
@@ -38,7 +38,7 @@
         foreach ($data as $data) {
           $i++;
           echo "<tr>";
-          echo "<td><input type=\"checkbox\"></td>";
+          
           echo "<td>" . $i . "</td>";
           echo "<td>" . $data->datetime . "</td>";
           echo "<td>" . $data->comment . "</td>";

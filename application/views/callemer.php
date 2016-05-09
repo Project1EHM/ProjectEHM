@@ -24,7 +24,7 @@
                 <div class="box-body table-responsive no-padding">
                   <table class="table table-hover">
                     <tbody><tr>
-                      <th></th>
+                      
                       <th>ลำดับ</th>
                       <th>ชื่อเบอร์โทรศัพท์</th>
                       <th>เบอร์โทรศัพท์</th>
@@ -36,7 +36,7 @@
         foreach ($data as $data) {
           $i++;
           echo "<tr>";
-          echo "<td><input type=\"checkbox\"></td>";
+          //echo "<td><input type=\"checkbox\"></td>";
           echo "<td>" . $i . "</td>";
           echo "<td>" . $data->namecall . "</td>";
           echo "<td>" . $data->numbercall. "</td>";
